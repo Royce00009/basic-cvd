@@ -530,6 +530,7 @@ flex-direction: row-reverse;
   }
   .footer .footer__wrapper ul {
     padding-top: 1.5rem;
+    align-items: center;
   }
 }
 
@@ -909,7 +910,7 @@ display: none;
     border-bottom: 1px solid #2b2b2b;
   }
   .update .update__item:not(:first-child){
-    padding: 3rem 0;
+    padding: 7rem 0;
   }
   .update .update__item:last-child{
     border-bottom: none;
@@ -918,7 +919,7 @@ display: none;
     color: #ffa700;
     font-size:2rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   .update .update__item table{
     width:100%;
@@ -1028,6 +1029,7 @@ display: none;
 
 .trend__post p {
     padding-bottom: 3rem;
+
 }
 
 .trend__post img {
@@ -1086,7 +1088,8 @@ display: none;
 .contact {
   padding: 2rem;
   background-color: #2b2b2b;
-  padding-top: 16rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 .contact__container {
   display: flex;
@@ -1185,6 +1188,7 @@ display: none;
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-top: 10rem;
 }
 
 .contact__form label {
@@ -1208,9 +1212,11 @@ display: none;
   margin-bottom: 2.5rem;
   font-size: 2rem;
   width: 100%;
-  border-radius: 10px; 
+  border-radius: 5px; 
 }
-
+.contact__title h2{
+  padding-top:4.9rem;
+}
 
 
 .submit {
@@ -1235,7 +1241,9 @@ display: none;
 #message {
   height: 200px; 
 }
-
+textarea{
+  resize: none;
+}
 
 .popup.hidden {
   display: none;
